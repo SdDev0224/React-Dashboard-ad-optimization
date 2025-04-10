@@ -1,0 +1,26 @@
+@import '../../constants';
+
+.button {
+  cursor: pointer;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.link {
+  display: inline;
+  color: $primary-color;
+  transition: color 0.3s;
+  &:hover {
+    color: lighten($primary-color, 5%);
+  }
+}
+
+.link.disabled {
+  color: rgba(0, 0, 0, 0.25);
+  transition: unset;
+  &:hover {
+    color: rgba(0, 0, 0, 0.25);
+  }
+}

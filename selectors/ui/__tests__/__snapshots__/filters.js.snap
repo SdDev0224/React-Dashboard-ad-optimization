@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Selectors] ui/filters selectPageFilterSettings selects page filter settings by page name 1`] = `
+Object {
+  "anchored": Array [
+    "aggregation",
+    "dates",
+    "factTypes",
+  ],
+  "displayState": Object {
+    "brands": true,
+    "countries": true,
+    "regions": true,
+  },
+  "order": Array [
+    "regions",
+    "countries",
+    "brands",
+  ],
+}
+`;

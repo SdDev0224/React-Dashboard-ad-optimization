@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Selectors] ui/amsTimeseriesCharts selectDataForStackedBarChart selects chart data correctly 1`] = `
+Object {
+  "headlineSearch": Object {
+    "LEFT_AXIS_FIRST": Array [
+      Array [
+        1542672000000,
+        2480,
+      ],
+      Array [
+        1542758400000,
+        2420,
+      ],
+      Array [
+        1542844800000,
+        2568,
+      ],
+      Array [
+        1542931200000,
+        3972,
+      ],
+    ],
+    "LEFT_AXIS_SECOND": Array [
+      Array [
+        1542672000000,
+        221219,
+      ],
+      Array [
+        1542758400000,
+        218753,
+      ],
+      Array [
+        1542844800000,
+        237866,
+      ],
+      Array [
+        1542931200000,
+        357965,
+      ],
+    ],
+    "RIGHT_AXIS": Array [
+      Array [
+        1542672000000,
+        0.011210610300200255,
+      ],
+      Array [
+        1542758400000,
+        0.011062705425754162,
+      ],
+      Array [
+        1542844800000,
+        0.01079599438339233,
+      ],
+      Array [
+        1542931200000,
+        0.011096056877068987,
+      ],
+    ],
+  },
+  "sponsoredProducts": Object {
+    "LEFT_AXIS_FIRST": Array [
+      Array [
+        1542672000000,
+        12018,
+      ],
+      Array [
+        1542758400000,
+        11823,
+      ],
+      Array [
+        1542844800000,
+        14030,
+      ],
+      Array [
+        1542931200000,
+        21651,
+      ],
+    ],
+    "LEFT_AXIS_SECOND": Array [
+      Array [
+        1542672000000,
+        2397061,
+      ],
+      Array [
+        1542758400000,
+        2362859,
+      ],
+      Array [
+        1542844800000,
+        3247452,
+      ],
+      Array [
+        1542931200000,
+        5967377,
+      ],
+    ],
+    "RIGHT_AXIS": Array [
+      Array [
+        1542672000000,
+        0.0050136396195174,
+      ],
+      Array [
+        1542758400000,
+        0.005003684096257966,
+      ],
+      Array [
+        1542844800000,
+        0.004320310200119971,
+      ],
+      Array [
+        1542931200000,
+        0.0036282272764063673,
+      ],
+    ],
+  },
+}
+`;

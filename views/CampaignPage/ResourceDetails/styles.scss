@@ -1,0 +1,16 @@
+@import '../../../constants';
+
+.tooltip {
+  max-width: 200px;
+
+  .title {
+    font-weight: 500;
+    font-size: $font-size-smaller;
+    margin: 0 0 4px;
+  }
+
+  .description {
+    display: block;
+    font-size: $font-size-smallest;
+  }
+}

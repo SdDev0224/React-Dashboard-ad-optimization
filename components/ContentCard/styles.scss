@@ -1,0 +1,28 @@
+@import '../../constants';
+
+.card {
+  @include box-shadow;
+}
+
+.row-spacing {
+  margin-top: $row-padding;
+}
+
+.title-container {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+
+  .sub-title {
+    font-size: 12px;
+    font-weight: $font-weight-normal;
+    color: $text-muted;
+  }
+}
+
+.action {
+  button {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,46 @@
+@import '../../../../../constants';
+
+.attaching-container {
+  font-size: $font-size-medium;
+  font-weight: $font-weight-normal;
+
+  .attaching-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    button + button {
+      margin-left: 15px;
+    }
+  }
+
+  .text-area-container {
+    display: flex;
+    justify-content: space-between;
+
+    .text-area {
+      flex-grow: 2;
+      margin-right: 12px;
+    }
+  }
+
+  :global(.ant-table-spin-holder) {
+    min-height: 0;
+  }
+
+  :global(.ant-table-thead) {
+    tr {
+      th {
+        background: white;
+        padding-top: 0 !important;
+      }
+    }
+  }
+
+  :global(.ant-table-placeholder) {
+    white-space: normal;
+  }
+
+  :global(.ant-form-item-control) {
+    line-height: unset;
+  }
+}

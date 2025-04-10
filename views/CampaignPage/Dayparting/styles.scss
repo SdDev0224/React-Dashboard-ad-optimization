@@ -1,0 +1,46 @@
+@import '../../../constants';
+
+.campaign-dayparting-card {
+  margin-bottom: 20px;
+  @include box-shadow;
+}
+
+.switch-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 15px;
+  height: 35px; // keeps the container the same size when buttons unmount
+
+  .multipliers-buttons {
+    display: flex;
+    button:nth-child(1) {
+      margin-right: 15px;
+    }
+  }
+}
+
+.multipliers-container {
+  display: flex;
+  flex-direction: column;
+  height: 330px;
+  margin-top: 20px;
+
+  .multipliers-list {
+    flex: 1;
+    overflow-y: auto;
+
+    .multiplier-label-container {
+      display: flex;
+      flex-direction: column;
+      div:nth-child(1) {
+        font-weight: $font-weight-semi-bold;
+      }
+      div:nth-child(2) {
+        font-weight: $font-weight-light;
+        font-size: $font-size-smallest;
+      }
+    }
+  }
+}

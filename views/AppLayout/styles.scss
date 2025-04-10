@@ -1,0 +1,83 @@
+@import '../../constants';
+
+$logo-size: 40px;
+
+.layout {
+  min-height: 100vh;
+}
+
+.logo-container {
+  height: $logo-size;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  height: $logo-size;
+}
+
+// id selector needed for higher specificity to override ant styles
+:global(#divider-container) {
+  padding: 0 !important;
+  height: 1px !important;
+}
+
+.divider {
+  height: 1px;
+  width: 75%;
+  margin: auto;
+  background-color: $side-menu-item-color !important;
+}
+
+:global(.ant-menu-inline-collapsed) {
+  .divider {
+    width: 50%;
+  }
+}
+
+.header {
+  padding: 0 25px;
+
+  .header-menu {
+    float: right;
+    height: 100%;
+  }
+
+  .header-menu-items {
+    line-height: 64px;
+  }
+}
+
+.side-nav {
+  height: 100%;
+  border-right: 0;
+}
+
+.content {
+  padding: 0;
+  position: relative;
+  background-color: $body-bg-color;
+}
+
+.menu-dropdown {
+  :global(.ant-dropdown-menu-item-disabled) {
+    font-weight: $font-weight-bold;
+    color: unset;
+    cursor: unset;
+
+    &:hover {
+      color: unset;
+      cursor: unset;
+    }
+  }
+}
+
+.organization-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inherit;
+}

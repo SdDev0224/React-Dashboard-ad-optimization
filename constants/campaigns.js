@@ -1,0 +1,4 @@
+export const CAMPAIGN_BUDGET_MIN = 1
+export const CAMPAIGN_BUDGET_MAX = 1000000000
+export const CAMPAIGN_BUDGET_STEP = 0.1
+export const CAMPAIGN_BUDGET_PRECISION = 2

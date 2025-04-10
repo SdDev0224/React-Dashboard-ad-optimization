@@ -1,0 +1,70 @@
+@import './constants.scss';
+
+:global {
+  // antd customization
+  .ant-tabs-bar {
+    @include box-shadow;
+
+    background-color: white;
+    padding: 0 $content-horiz-padding;
+    margin-bottom: 0 !important;
+  }
+
+  .ant-tabs-content {
+    padding: 24px $content-horiz-padding;
+  }
+
+  $tabpanes: 6;
+  @for $i from 0 to $tabpanes {
+    .ant-tabs-tabpane:nth-child(#{$i + 1}) {
+      position: relative;
+      left: calc(48px * #{$i});
+    }
+  }
+
+  // icons
+  .fg-icon-xs {
+    font-size: $extra-small-icon-size;
+  }
+
+  .fg-icon-sm {
+    font-size: $small-icon-size;
+  }
+
+  .fg-icon-md {
+    font-size: $medium-icon-size;
+  }
+
+  .flag-container {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    line-height: 1em;
+  }
+
+  .flag-wrapper {
+    margin: 0 $icon-horizontal-margin;
+    display: flex;
+    align-items: center;
+  }
+
+  .fg-form-control {
+    display: flex;
+    flex-direction: column;
+
+    .fg-control-label {
+      font-size: $font-size-smaller;
+      font-weight: $font-weight-bold;
+      margin-bottom: 5px;
+    }
+
+    .fg-control-text {
+      font-size: $font-size-smaller;
+      margin-top: 5px;
+
+      &.is-error {
+        color: $danger-color;
+      }
+    }
+  }
+}

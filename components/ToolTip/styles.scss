@@ -1,0 +1,20 @@
+@import '../../constants';
+
+:global(.ant-tooltip-inner) {
+  word-break: normal;
+}
+
+.tooltip {
+  max-width: 200px;
+
+  .title {
+    font-weight: 500;
+    font-size: $font-weight-semi-bold;
+    margin: 0 0 4px;
+  }
+
+  .description {
+    display: block;
+    font-size: $font-size-smallest;
+  }
+}

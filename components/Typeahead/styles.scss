@@ -1,0 +1,23 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  .typeahead {
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
+    ul {
+      max-height: 320px;
+    }
+  }
+  .selected-options {
+    text-align: left;
+  }
+  .tag {
+    margin-bottom: 6px;
+  }
+}
+
+.empty-content {
+  position: relative;
+  min-height: 300px;
+}

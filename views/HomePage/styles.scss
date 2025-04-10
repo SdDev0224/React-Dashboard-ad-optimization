@@ -1,0 +1,10 @@
+@import '../../constants';
+
+.row-spacing {
+  padding-top: $row-padding;
+}
+
+.empty-content {
+  position: relative;
+  min-height: 300px;
+}

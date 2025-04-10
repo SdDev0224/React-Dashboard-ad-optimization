@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Selectors] ui/sovCharts selectDataForSovChart selects chart data correctly 1`] = `
+Array [
+  Object {
+    "data": Array [
+      Object {
+        "x": 1542585600000,
+        "y": 168,
+      },
+      Object {
+        "x": 1542672000000,
+        "y": 175,
+      },
+      Object {
+        "x": 1542758400000,
+        "y": 175,
+      },
+    ],
+    "fillOpacity": null,
+    "name": "Inkfirst",
+    "selected": false,
+  },
+  Object {
+    "data": Array [
+      Object {
+        "x": 1542585600000,
+        "y": 142,
+      },
+      Object {
+        "x": 1542672000000,
+        "y": 150,
+      },
+      Object {
+        "x": 1542758400000,
+        "y": 148,
+      },
+    ],
+    "fillOpacity": null,
+    "name": "HP",
+    "selected": false,
+  },
+  Object {
+    "data": Array [
+      Object {
+        "x": 1542585600000,
+        "y": 48,
+      },
+    ],
+    "fillOpacity": null,
+    "name": "SaveOnMany",
+    "selected": false,
+  },
+  Object {
+    "data": Array [
+      Object {
+        "x": 1542585600000,
+        "y": 24,
+      },
+      Object {
+        "x": 1542672000000,
+        "y": 25,
+      },
+      Object {
+        "x": 1542758400000,
+        "y": 25,
+      },
+    ],
+    "fillOpacity": null,
+    "name": "Amida",
+    "selected": false,
+  },
+  Object {
+    "data": Array [
+      Object {
+        "x": 1542585600000,
+        "y": 24,
+      },
+      Object {
+        "x": 1542672000000,
+        "y": 25,
+      },
+    ],
+    "fillOpacity": null,
+    "name": "Ink & Toner 4 You",
+    "selected": false,
+  },
+  Object {
+    "data": Array [
+      Object {
+        "x": 1542585600000,
+        "y": 24,
+      },
+      Object {
+        "x": 1542672000000,
+        "y": 25,
+      },
+    ],
+    "fillOpacity": null,
+    "name": "LD",
+    "selected": false,
+  },
+  Object {
+    "data": Array [
+      Object {
+        "x": 1542672000000,
+        "y": 25,
+      },
+      Object {
+        "x": 1542758400000,
+        "y": 24,
+      },
+    ],
+    "fillOpacity": null,
+    "name": "Unknown Brand",
+    "selected": false,
+  },
+  Object {
+    "data": Array [
+      Object {
+        "x": 1542585600000,
+        "y": 24,
+      },
+    ],
+    "fillOpacity": null,
+    "name": "Moustache",
+    "selected": false,
+  },
+  Object {
+    "data": Array [
+      Object {
+        "x": 1542585600000,
+        "y": 24,
+      },
+    ],
+    "fillOpacity": null,
+    "name": "PayForLess",
+    "selected": false,
+  },
+]
+`;

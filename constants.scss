@@ -1,0 +1,52 @@
+// colors
+$primary-color: #01c7d1;
+$body-bg-color: #eff2f4;
+$gray-background-color: #cccccc;
+$white-background-color: #ffffff;
+$card-border-color: #e8e8e8;
+$danger-color: #f41e28;
+$success-color: #52c41a;
+$warning-color: #faad14;
+$ghost-white: rgba(255, 255, 255, 0.2);
+$text-primary: rgba(0, 0, 0, 0.85);
+$text-muted: rgba(0, 0, 0, 0.65);
+$text-light: rgba(0, 0, 0, 0.5);
+$text-extra-light: rgba(0, 0, 0, 0.3);
+$popover-mask-color: rgba(255, 255, 255, 0.5);
+$side-menu-item-color: rgba(255, 255, 255, 0.5);
+$action-button-color-light: #9cc681;
+$action-button-color-medium: #8ab46f;
+$action-button-color-dark: #68914d;
+
+// dimensions
+$row-padding: 15px;
+$card-padding: 16px 24px;
+$filter-panel-padding: 16px 24px;
+$btn-right-margin: 10px;
+$content-horiz-padding: 24px;
+$icon-horizontal-margin: 5px;
+
+// icon sizes
+$medium-icon-size: 25px;
+$small-icon-size: 20px;
+$extra-small-icon-size: 12px;
+
+// font sizes
+$font-size-xxlarge: 28px;
+$font-size-xlarge: 20px;
+$font-size-large: 18px;
+$font-size-medium: 14px;
+$font-size-smaller: 12.6px;
+$font-size-smallest: 11px;
+
+// font weights
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-semi-bold: 500;
+$font-weight-bold: 700;
+
+@mixin box-shadow {
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}

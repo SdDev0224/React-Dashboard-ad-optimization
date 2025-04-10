@@ -1,0 +1,8 @@
+// keys that are used to store items in localStorage
+export const CEREBRO_ACCESS_TOKEN = 'CEREBRO_ACCESS_TOKEN'
+export const CEREBRO_REFRESH_TOKEN = 'CEREBRO_REFRESH_TOKEN'
+
+export const CUSTOMER_SERVICE = 'CUSTOMER_SERVICE'
+
+export const ORGANIZATION_ID = 'ORGANIZATION_ID'
+export const ORGANIZATION_GROUP_ID = 'ORGANIZATION_GROUP_ID'

@@ -1,0 +1,57 @@
+@import '../../constants';
+
+.form {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  margin: -160px 0 0 -160px;
+  width: 380px;
+  padding: 30px 36px 15px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+
+  button {
+    width: 100%;
+  }
+
+  p {
+    color: $gray-background-color;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.logo {
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 40px;
+    margin-right: 8px;
+  }
+
+  span {
+    vertical-align: text-bottom;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 700;
+  }
+}
+
+.background {
+  background-color: rgba(0, 0, 0, 0.006);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}

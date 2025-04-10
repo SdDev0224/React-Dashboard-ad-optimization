@@ -1,0 +1,43 @@
+@import '../../../../../constants';
+
+.cell-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  div:nth-child(1) {
+    margin-right: 5px;
+  }
+}
+
+.popover-table-container {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+
+  .header {
+    text-align: center;
+    font-size: $font-size-large;
+    font-weight: $font-weight-bold;
+  }
+
+  .table {
+    text-align: center;
+    .key {
+      font-weight: $font-weight-bold;
+    }
+    .notes {
+      text-align: left;
+      font-size: $font-size-smaller;
+      padding-left: 15px;
+      font-style: italic;
+    }
+    :global(.ant-table-small) {
+      border: 0;
+      border-radius: 0;
+    }
+  }
+}
+
+.popover-text-container {
+  width: 250px;
+}

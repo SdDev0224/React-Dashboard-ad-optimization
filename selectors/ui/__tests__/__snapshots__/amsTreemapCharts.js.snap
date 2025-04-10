@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Selectors] ui/amsTreemapCharts selectTreemapChartData selects data correctly 1`] = `
+Array [
+  Object {
+    "metric": Object {
+      "formattedValue": "$438,629.22",
+      "nativeValue": 438629.22,
+    },
+    "metricMetadata": Object {
+      "format": "$0,0.00",
+      "helptext": "The aggregate value of sales generated whenever a shopper purchases any of your brand’s products within 14 days of clicking on your ad. Note: Sales are attributed to the last ad clicked to avoid double-counting sales and may take up to 72 hours to display after a purchase has been made. Sales value is based on sales price to the end customer, not to Amazon.",
+      "name": "Attributed Sales (14 Day)",
+      "short_format": "$0.0a",
+      "short_name": "Sales (14 Day)",
+    },
+    "resourceData": Object {
+      "attributed_sales_14_day__sum": 438629.22,
+      "ctr": 0.56,
+      "profile": Object {
+        "brand_entity_id": "ENTITY1TOLU9YL3AZ8G",
+        "brand_name": "Acme Brand 1",
+        "country_code": "US",
+        "created_date": "2018-11-07T23:28:36.462251Z",
+        "currency_code": "USD",
+        "id": "320788626716217",
+        "marketplace_string_id": "ATVPDKIKX0DER",
+        "region": "NA",
+        "timezone": "America/Los_Angeles",
+        "updated_date": "2018-11-07T23:28:36.630581Z",
+      },
+      "profile_id": "320788626716217",
+    },
+  },
+  Object {
+    "metric": Object {
+      "formattedValue": "$227,308.00",
+      "nativeValue": 227308,
+    },
+    "metricMetadata": Object {
+      "format": "$0,0.00",
+      "helptext": "The aggregate value of sales generated whenever a shopper purchases any of your brand’s products within 14 days of clicking on your ad. Note: Sales are attributed to the last ad clicked to avoid double-counting sales and may take up to 72 hours to display after a purchase has been made. Sales value is based on sales price to the end customer, not to Amazon.",
+      "name": "Attributed Sales (14 Day)",
+      "short_format": "$0.0a",
+      "short_name": "Sales (14 Day)",
+    },
+    "resourceData": Object {
+      "attributed_sales_14_day__sum": 227308,
+      "ctr": 0.65,
+      "profile": Object {
+        "brand_entity_id": "ENTITY3OOEMY9H6L0MZ",
+        "brand_name": "Acme Brand 2",
+        "country_code": "US",
+        "created_date": "2018-11-07T23:28:36.462251Z",
+        "currency_code": "USD",
+        "id": "2267480161047622",
+        "marketplace_string_id": "ATVPDKIKX0DER",
+        "region": "NA",
+        "timezone": "America/Los_Angeles",
+        "updated_date": "2018-11-07T23:28:36.630581Z",
+      },
+      "profile_id": "2267480161047622",
+    },
+  },
+  Object {
+    "metric": Object {
+      "formattedValue": "$200,364.97",
+      "nativeValue": 200364.97,
+    },
+    "metricMetadata": Object {
+      "format": "$0,0.00",
+      "helptext": "The aggregate value of sales generated whenever a shopper purchases any of your brand’s products within 14 days of clicking on your ad. Note: Sales are attributed to the last ad clicked to avoid double-counting sales and may take up to 72 hours to display after a purchase has been made. Sales value is based on sales price to the end customer, not to Amazon.",
+      "name": "Attributed Sales (14 Day)",
+      "short_format": "$0.0a",
+      "short_name": "Sales (14 Day)",
+    },
+    "resourceData": Object {
+      "attributed_sales_14_day__sum": 200364.97,
+      "ctr": 0.11,
+      "profile": Object {
+        "brand_entity_id": "ENTITY2Y99QB5Y0LQ7V",
+        "brand_name": "Acme Brand 3",
+        "country_code": "US",
+        "created_date": "2018-11-07T23:28:36.462251Z",
+        "currency_code": "USD",
+        "id": "356171147073308",
+        "marketplace_string_id": "ATVPDKIKX0DER",
+        "region": "NA",
+        "timezone": "America/Los_Angeles",
+        "updated_date": "2018-11-07T23:28:36.630581Z",
+      },
+      "profile_id": "356171147073308",
+    },
+  },
+  Object {
+    "metric": Object {
+      "formattedValue": "$174,992.39",
+      "nativeValue": 174992.39,
+    },
+    "metricMetadata": Object {
+      "format": "$0,0.00",
+      "helptext": "The aggregate value of sales generated whenever a shopper purchases any of your brand’s products within 14 days of clicking on your ad. Note: Sales are attributed to the last ad clicked to avoid double-counting sales and may take up to 72 hours to display after a purchase has been made. Sales value is based on sales price to the end customer, not to Amazon.",
+      "name": "Attributed Sales (14 Day)",
+      "short_format": "$0.0a",
+      "short_name": "Sales (14 Day)",
+    },
+    "resourceData": Object {
+      "attributed_sales_14_day__sum": 174992.39,
+      "ctr": 0.15,
+      "profile": Object {
+        "brand_entity_id": "ENTITY33WK215LJ5HLQ",
+        "brand_name": "Acme Brand 4",
+        "country_code": "US",
+        "created_date": "2018-11-07T23:28:36.462251Z",
+        "currency_code": "USD",
+        "id": "3931123856677272",
+        "marketplace_string_id": "ATVPDKIKX0DER",
+        "region": "NA",
+        "timezone": "America/Los_Angeles",
+        "updated_date": "2018-11-07T23:28:36.630581Z",
+      },
+      "profile_id": "3931123856677272",
+    },
+  },
+]
+`;
+
+exports[`[Selectors] ui/amsTreemapCharts selectTreemapChartData selects data correctly 2`] = `
+Array [
+  Object {
+    "metric": Object {
+      "formattedValue": "65.00%",
+      "nativeValue": 0.65,
+    },
+    "metricMetadata": Object {
+      "format": "0.00%",
+      "helptext": "The percentage of shoppers who click on your ad when shown. CTR is calculated by dividing the total number of clicks by total number of impressions.",
+      "name": "Click Through Rate",
+      "short_format": "0.00%",
+      "short_name": "CTR",
+      "summary_calc": [Function],
+    },
+    "resourceData": Object {
+      "attributed_sales_14_day__sum": 227308,
+      "ctr": 0.65,
+      "profile": Object {
+        "brand_entity_id": "ENTITY3OOEMY9H6L0MZ",
+        "brand_name": "Acme Brand 2",
+        "country_code": "US",
+        "created_date": "2018-11-07T23:28:36.462251Z",
+        "currency_code": "USD",
+        "id": "2267480161047622",
+        "marketplace_string_id": "ATVPDKIKX0DER",
+        "region": "NA",
+        "timezone": "America/Los_Angeles",
+        "updated_date": "2018-11-07T23:28:36.630581Z",
+      },
+      "profile_id": "2267480161047622",
+    },
+  },
+  Object {
+    "metric": Object {
+      "formattedValue": "56.00%",
+      "nativeValue": 0.56,
+    },
+    "metricMetadata": Object {
+      "format": "0.00%",
+      "helptext": "The percentage of shoppers who click on your ad when shown. CTR is calculated by dividing the total number of clicks by total number of impressions.",
+      "name": "Click Through Rate",
+      "short_format": "0.00%",
+      "short_name": "CTR",
+      "summary_calc": [Function],
+    },
+    "resourceData": Object {
+      "attributed_sales_14_day__sum": 438629.22,
+      "ctr": 0.56,
+      "profile": Object {
+        "brand_entity_id": "ENTITY1TOLU9YL3AZ8G",
+        "brand_name": "Acme Brand 1",
+        "country_code": "US",
+        "created_date": "2018-11-07T23:28:36.462251Z",
+        "currency_code": "USD",
+        "id": "320788626716217",
+        "marketplace_string_id": "ATVPDKIKX0DER",
+        "region": "NA",
+        "timezone": "America/Los_Angeles",
+        "updated_date": "2018-11-07T23:28:36.630581Z",
+      },
+      "profile_id": "320788626716217",
+    },
+  },
+  Object {
+    "metric": Object {
+      "formattedValue": "15.00%",
+      "nativeValue": 0.15,
+    },
+    "metricMetadata": Object {
+      "format": "0.00%",
+      "helptext": "The percentage of shoppers who click on your ad when shown. CTR is calculated by dividing the total number of clicks by total number of impressions.",
+      "name": "Click Through Rate",
+      "short_format": "0.00%",
+      "short_name": "CTR",
+      "summary_calc": [Function],
+    },
+    "resourceData": Object {
+      "attributed_sales_14_day__sum": 174992.39,
+      "ctr": 0.15,
+      "profile": Object {
+        "brand_entity_id": "ENTITY33WK215LJ5HLQ",
+        "brand_name": "Acme Brand 4",
+        "country_code": "US",
+        "created_date": "2018-11-07T23:28:36.462251Z",
+        "currency_code": "USD",
+        "id": "3931123856677272",
+        "marketplace_string_id": "ATVPDKIKX0DER",
+        "region": "NA",
+        "timezone": "America/Los_Angeles",
+        "updated_date": "2018-11-07T23:28:36.630581Z",
+      },
+      "profile_id": "3931123856677272",
+    },
+  },
+  Object {
+    "metric": Object {
+      "formattedValue": "11.00%",
+      "nativeValue": 0.11,
+    },
+    "metricMetadata": Object {
+      "format": "0.00%",
+      "helptext": "The percentage of shoppers who click on your ad when shown. CTR is calculated by dividing the total number of clicks by total number of impressions.",
+      "name": "Click Through Rate",
+      "short_format": "0.00%",
+      "short_name": "CTR",
+      "summary_calc": [Function],
+    },
+    "resourceData": Object {
+      "attributed_sales_14_day__sum": 200364.97,
+      "ctr": 0.11,
+      "profile": Object {
+        "brand_entity_id": "ENTITY2Y99QB5Y0LQ7V",
+        "brand_name": "Acme Brand 3",
+        "country_code": "US",
+        "created_date": "2018-11-07T23:28:36.462251Z",
+        "currency_code": "USD",
+        "id": "356171147073308",
+        "marketplace_string_id": "ATVPDKIKX0DER",
+        "region": "NA",
+        "timezone": "America/Los_Angeles",
+        "updated_date": "2018-11-07T23:28:36.630581Z",
+      },
+      "profile_id": "356171147073308",
+    },
+  },
+]
+`;
